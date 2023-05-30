@@ -18,7 +18,7 @@ describe("Servers test (with setup and tear-down)", function () {
 
     expect(table.length).toEqual(2);
     expect(table[0].innerText).toEqual("Alice");
-    expect(table[1].innerText).toEqual("$0.00");
+    expect(table[1].innerText).toEqual("$40.00");
   });
   afterEach(function () {
     serverNameInput.value = "";
